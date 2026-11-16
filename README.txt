@@ -4,7 +4,7 @@ No es el sitio oficial del restaurante.
 Sitio estático HTML, CSS y JavaScript, publicado con GitHub Pages.
 La carpeta raíz contiene la web completa. Los cambios en main se publican automáticamente.
 
-Fotografías del restaurante obtenidas de la galería de Google Maps compartida por el usuario.
+Fotografías del restaurante obtenidas de la galería de Google Maps y el Instagram @tangoparrilla compartidos por el usuario.
 Los créditos completos están en el diálogo de fotografías y privacidad.
 Las fuentes Cormorant Garamond y DM Sans incluyen sus licencias OFL en assets.
 
@@ -20,3 +20,5 @@ Catálogo visual y cotización por WhatsApp:
 - Datos de productos: script JSON #catalog-data en index.html y tarjetas .catalog-card.
 - Funcionalidad aislada en catalog.js; estilos en catalog.css.
 - Pruebas locales: node --test qa/catalog.test.cjs (qa/ no se publica).
+
+Datos contrastados con el Instagram público: business-sources.json. Galería estática con enlaces a las publicaciones originales; no requiere conexión a una API de Instagram.

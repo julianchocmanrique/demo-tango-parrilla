@@ -1,5 +1,5 @@
 {
-  "source": "Galería de Google Maps enlazada por el usuario",
+  "source": "Galería de Google Maps y perfil de Instagram compartidos por el usuario",
   "place_url": "https://www.google.com/maps?cid=15104996314969361865",
   "photos": [
     {
@@ -7,12 +7,6 @@
       "credit": "Nasly Alba Farias",
       "photo_id": "CIABIhDFxQk0K1MQQd8yO59ApcNL",
       "description": "Interior del restaurante"
-    },
-    {
-      "file": "assets/tango-hamburguesa.jpg",
-      "credit": "Jose David Forero Torres",
-      "photo_id": "CIHM0ogKEICAgIDnmrCD8wE",
-      "description": "Hamburguesa y papas; la foto original contiene un cartel de promoción de 2024, fuera del encuadre de la tarjeta"
     },
     {
       "file": "assets/tango-bife.jpg",
@@ -31,6 +25,31 @@
       "credit": "David Acevedo",
       "photo_id": "CIABIhB9wZQFKI3MEfLih5LJdZ_q",
       "description": "Preparación en pan con embutido y papas; nombre del plato no verificado"
+    },
+    {
+      "file": "assets/tango-instagram-01.jpg",
+      "credit": "@tangoparrilla · Instagram",
+      "source_url": "https://www.instagram.com/tangoparrilla/p/DYiOUHukXs5/",
+      "description": "Photo by Tangoparrilla on May 19, 2026."
+    },
+    {
+      "file": "assets/tango-instagram-02.jpg",
+      "credit": "@tangoparrilla · Instagram",
+      "source_url": "https://www.instagram.com/tangoparrilla/p/DYXrTuzEYm1/",
+      "description": "Photo by Tangoparrilla on May 15, 2026."
+    },
+    {
+      "file": "assets/tango-instagram-03.jpg",
+      "credit": "@tangoparrilla · Instagram",
+      "source_url": "https://www.instagram.com/tangoparrilla/p/DYImJ3zkctN/",
+      "description": "Photo by Tangoparrilla on May 09, 2026."
+    },
+    {
+      "file": "assets/tango-instagram-logo.jpg",
+      "credit": "@tangoparrilla · Instagram",
+      "source_url": "https://www.instagram.com/tangoparrilla/",
+      "description": "Foto del perfil de tangoparrilla"
     }
-  ]
+  ],
+  "instagram_url": "https://www.instagram.com/tangoparrilla/"
 }
