@@ -1,0 +1,36 @@
+{
+  "source": "Galería de Google Maps enlazada por el usuario",
+  "place_url": "https://www.google.com/maps?cid=15104996314969361865",
+  "photos": [
+    {
+      "file": "assets/tango-interior.jpg",
+      "credit": "Nasly Alba Farias",
+      "photo_id": "CIABIhDFxQk0K1MQQd8yO59ApcNL",
+      "description": "Interior del restaurante"
+    },
+    {
+      "file": "assets/tango-hamburguesa.jpg",
+      "credit": "Jose David Forero Torres",
+      "photo_id": "CIHM0ogKEICAgIDnmrCD8wE",
+      "description": "Hamburguesa y papas; la foto original contiene un cartel de promoción de 2024, fuera del encuadre de la tarjeta"
+    },
+    {
+      "file": "assets/tango-bife.jpg",
+      "credit": "Kathy Ruiloba",
+      "photo_id": "CIABIhB3R-eUYQ788EU0jMuN01TG",
+      "description": "Bife de chorizo con tomates, título visible en Google Maps"
+    },
+    {
+      "file": "assets/tango-fachada.jpg",
+      "credit": "Paula Patiño",
+      "photo_id": "CIABIhDOKGhb9eEGvN4-rWCjrgHA",
+      "description": "Fachada"
+    },
+    {
+      "file": "assets/tango-carta.jpg",
+      "credit": "David Acevedo",
+      "photo_id": "CIABIhB9wZQFKI3MEfLih5LJdZ_q",
+      "description": "Preparación en pan con embutido y papas; nombre del plato no verificado"
+    }
+  ]
+}

@@ -25,3 +25,18 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}.reveal.reveal-ready:not(.is-visible){opacity:1;transform:none}}
 
 .flavors :focus-visible,.visit-section :focus-visible,.reviews-strip :focus-visible,.visit-form :focus-visible,dialog :focus-visible{outline-color:var(--red)}
+
+/* Actual restaurant photography, selected from the supplied gallery. */
+.hero-image{left:auto;right:0;width:65%;object-position:center 48%;filter:brightness(.85) saturate(.85)}
+.hero-shade{background:linear-gradient(90deg,#3c0618 0%,#3c0618f5 30%,#3b0619b8 46%,#28081230 74%,#130c0b15 100%),linear-gradient(0deg,#19070de3,transparent 45%)}
+.hero-stamp{top:auto;bottom:120px;background:#370b1a99}
+.photo-frame img{object-position:center 48%;filter:saturate(.9) brightness(.9)}
+.photo-label{width:188px}.photo-label strong{font-size:20px}
+.dish-image .bife-photo{object-position:center 68%}
+.dish-image .burger-photo{width:180%;height:180%;max-width:none;position:absolute;left:-43%;bottom:-8%;object-fit:cover;object-position:center bottom;transform:none}
+.dish-image:hover .burger-photo{transform:none;filter:saturate(1)}
+.menu-filters{flex-wrap:wrap}
+@media(max-width:820px){.hero-image{width:78%}.menu-toolbar{align-items:flex-start}.photo-disclaimer{white-space:normal;text-align:right;max-width:150px}.photo-label{width:157px;gap:11px}.photo-label strong{font-size:17px}}
+@media(max-width:600px){.hero-image{width:100%;object-position:58% center;filter:brightness(.78) saturate(.85)}.hero-shade{background:linear-gradient(90deg,#3f0819d9,#360c1c66),linear-gradient(0deg,#210611df,transparent 60%)}.hero-stamp{bottom:91px}.photo-label{width:175px}.photo-disclaimer{text-align:left;max-width:none}.dish-image .burger-photo{width:180%;height:180%;left:-43%;bottom:-8%}}
+
+.hero-stamp{display:none}
