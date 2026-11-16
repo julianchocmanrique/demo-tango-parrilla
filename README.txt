@@ -6,4 +6,4 @@ La carpeta raíz contiene la web completa. Los cambios en main se publican autom
 
 Fotografías gastronómicas de referencia: Erik Mclean, Ionela Mat y Gustavo Santana / Pexels.
 Los créditos completos están en el diálogo de fotografías y privacidad.
-Las fuentes Barlow Condensed y DM Sans incluyen sus licencias OFL en assets.
+Las fuentes Cormorant Garamond y DM Sans incluyen sus licencias OFL en assets.
