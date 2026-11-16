@@ -47,22 +47,6 @@
   });
   if (desktopLayout.matches) setMenuOpen(false);
 
-  const filterButtons = $$('[data-filter]');
-  const dishes = $$('.dish-card[data-category]');
-  filterButtons.forEach((button) => {
-    button.addEventListener('click', () => {
-      const category = button.dataset.filter;
-      filterButtons.forEach((item) => {
-        const selected = item === button;
-        item.setAttribute('aria-pressed', String(selected));
-        item.classList.toggle('is-active', selected);
-      });
-      dishes.forEach((dish) => {
-        dish.hidden = category !== 'all' && dish.dataset.category !== category;
-      });
-    });
-  });
-
   const navLinks = $$('.nav-link[href^="#"]');
   const navSections = [...new Set(navLinks.map((link) => {
     return document.getElementById(link.getAttribute('href').slice(1));
