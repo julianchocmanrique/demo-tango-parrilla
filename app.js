@@ -151,7 +151,8 @@
       carta: 'Quisiera conocer la carta actual y los precios.',
     };
     const message = [
-      `Hola, Tango Parrilla Argentina. Soy ${name}.`,
+      'Hola, te contactamos desde la página web de Tango Parrilla Argentina.',
+      `Soy ${name}.`,
       reasons[String(values.get('motivo'))] || 'Quisiera hacer una consulta.',
       date ? `Fecha: ${date.split('-').reverse().join('/')}.` : '',
       people ? `Personas: ${people}.` : '',

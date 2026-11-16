@@ -76,9 +76,11 @@
     const notes = String(options.notas || '').trim().slice(0, 600);
     const service = Object.hasOwn(SERVICES, options.servicio) ? options.servicio : 'local';
     return [
-      'Solicitud de cotización · Tango Parrilla Argentina',
+      'Hola, te contactamos desde la página web de Tango Parrilla Argentina.',
+      name ? `Soy ${name}.` : '',
       '',
-      `Hola, Tango.${name ? ` Soy ${name}.` : ''} Quisiera cotizar los siguientes productos:`,
+      'Solicitud de cotización · Tango Parrilla Argentina',
+      'Quisiera cotizar los siguientes productos:',
       '',
       ...entries.map((entry) => `• ${Number(entry.quantity)} × ${entry.name.replace(/[\r\n]+/g, ' ').trim()}`),
       '',
